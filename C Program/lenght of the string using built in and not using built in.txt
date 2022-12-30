@@ -1,0 +1,18 @@
+ #include<stdio.h>
+ #include<string.h>
+ void main()
+ {
+     char s[10],s1[10];
+     int i,count=0,len;
+     printf("Enter the string ");
+     scanf("%s",s);
+     for(i=0;s[i]!='\0';i++)
+     {
+         count = count+1;
+     }
+     printf("Lenght of the string is givn by %d\n",count);
+     printf("Enter the another string ");
+     scanf("%s",s1);
+     len = strlen(s1);
+     printf("SEcond string lenght is given by %d",len);
+ }

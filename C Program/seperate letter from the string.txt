@@ -1,0 +1,26 @@
+. Write a program in C to separate the individual characters from a string. Go to the editor
+
+Test Data : 
+Input the string : w3resource.com
+
+Expected Output :
+
+The characters of the string are : 
+w  3  r  e  s  o  u  r  c  e  .  c  o  m
+
+
+
+ #include<stdio.h>
+ #include<string.h>
+ void main()
+ {
+     char s[10],s1[10];
+     int i,count=0,len;
+     printf("Enter the string ");
+     scanf("%s",s);
+     for(i=0;s[i]!='\0';i++)
+     {
+         printf("%c ",s[i]);
+     }
+ 
+ }

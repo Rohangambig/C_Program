@@ -1,0 +1,33 @@
+ #include<stdio.h>
+ #include<stdlib.h>
+ #include<string.h>
+ void main()
+ {
+     char s1[10],s2[10],i,s3[10],s4[10];
+     printf("Enter the first string ");
+     scanf("%s",s1);
+     printf("Enter the second string ");
+     scanf("%s",s2);
+     for(i=0;s1[i]!=0 ||s2[i]!=0;i++ )
+     {
+         if(s1[i] ==s2[i])
+         {
+             continue;
+         }
+         else
+         {
+             printf("Srtings are not equal");
+             exit(0);
+         }
+     }
+     printf("Strings are equal\n");
+     printf("enter the third string ");
+     scanf("%s",s3);
+     printf("Enter the fourth strings ");
+     scanf("%s",s4);
+     if(strcmp(s3,s4)==0)
+     printf("Strings are equal");
+     else
+     printf("Strings are not equal");
+     
+ }

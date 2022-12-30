@@ -1,0 +1,26 @@
+ Write a program in C to print individual characters of string in reverse order. Go to the editor
+
+Test Data : 
+Input the string : w3resource.com
+
+Expected Output :
+
+The characters of the string in reverse are :
+m  o  c  .  e  c  r  u  o  s  e  r  3  w 
+
+
+#include<stdio.h>
+ #include<string.h>
+ void main()
+ {
+     char s[10],s1[10];
+     int i,count=0,len;
+     printf("Enter the string ");
+     scanf("%s",s);
+     len=strlen(s);
+     for(i=len;i>=0;i--)
+     {
+         printf("%c ",s[i]);
+     }
+ 
+ }

@@ -1,0 +1,17 @@
+ #include<stdio.h>
+ void main()
+ {
+      int x,y;
+      printf("Enter the value of x and y : ");
+      scanf("%d%d",&x,&y);
+      if(x>0 && y>0)
+      printf("Points lies in first quadrant ");
+      else if(x<0 && y< 0)
+      printf("Points lies in  third quadrant");
+      else if(x>0 && y<0)
+      printf("Points lies in  fourth quadrant");
+      else if(x==0 && y==0)
+      printf("Points lies in first quadrant");
+      else
+      printf("Points lies in  second quadrant");
+ }
